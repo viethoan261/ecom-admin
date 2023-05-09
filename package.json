@@ -10,7 +10,6 @@
     "start": "npx http-server dist"
   },
   "dependencies": {
-    "http-server": "^0.12.3",
     "@emotion/react": "^11.10.6",
     "@mantine/carousel": "^6.0.5",
     "@mantine/core": "^6.0.5",
