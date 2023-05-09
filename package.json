@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "start": "npx http-server ./dist"
+    "start": "node index.js"
   },
   "dependencies": {
     "@emotion/react": "^11.10.6",
