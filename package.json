@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "start": "npm start"
+    "start": "npm"
   },
   "dependencies": {
     "@emotion/react": "^11.10.6",
