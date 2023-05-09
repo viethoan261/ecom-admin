@@ -5,11 +5,12 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "tsc && vite build && npx http-server dist",
     "preview": "vite preview",
-    "start": "node index.js"
+    "start": "npx http-server dist"
   },
   "dependencies": {
+    "http-server": "^0.12.3",
     "@emotion/react": "^11.10.6",
     "@mantine/carousel": "^6.0.5",
     "@mantine/core": "^6.0.5",
