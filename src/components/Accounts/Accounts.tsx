@@ -49,9 +49,12 @@ const Accounts = () => {
           <Text fw={700} fz="xl">
             Quản Lý Tài Khoản
           </Text>
-          <Button leftIcon={<IconPlus size={16} />} onClick={openAddModal}>
-            Thêm
-          </Button>
+          {state.user?.role === Role.staff ?
+    null :
+    <Button leftIcon={<IconPlus size={16} />} onClick={openAddModal}>
+      Thêm
+    </Button>
+  }
         </Group>
         <DataTable
           minHeight={200}
